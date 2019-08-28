@@ -1,170 +1,160 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href={% static 'project.css' %}>
-    <link rel="stylesheet" href="{% static 'bootstrap.min.css' %}">
-{#    <link rel="stylesheet" href="{% static 'jquery-3.4.1.min.js' %}">#}
     <title>Title</title>
 </head>
 <body>
 <div class="container">
     <div class="jumbotron">
         <h1>
-            Welcome to this bullshit!
+            Welcome to this simple game!
         </h1>
-        <h3 id="startMsg" class="text-center">Enter your names to start the game!</h3>
-{#        <button id="btn" type="button" class="btn btn-primary btn-lg">Restart</button>#}
+        <h3 id="startMsg" class="text-center"> Connect a line of four chips to win:)
+        </h3>
         <table align='center' class="board">
             <tr>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
-                    <button type="button"></button>
-                </td>
-            </tr>
-            <tr>
-                <td id="1">
-                    <button type="button"></button>
-                </td>
-                <td id="1">
-                    <button type="button"></button>
-                </td>
-                <td id="1">
-                    <button type="button"></button>
-                </td>
-                <td id="1">
-                    <button type="button"></button>
-                </td>
-                <td id="1">
-                    <button type="button"></button>
-                </td>
-                <td id="1">
-                    <button type="button"></button>
-                </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
             </tr>
             <tr>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
-                    <button type="button"></button>
-                </td>
-            </tr>
-            <tr>
-                <td id="1">
-                    <button type="button"></button>
-                </td>
-                <td id="1">
-                    <button type="button"></button>
-                </td>
-                <td id="1">
-                    <button type="button"></button>
-                </td>
-                <td id="1">
-                    <button type="button"></button>
-                </td>
-                <td id="1">
-                    <button type="button"></button>
-                </td>
-                <td id="1">
-                    <button type="button"></button>
-                </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
             </tr>
             <tr>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
             </tr>
             <tr>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
                     <button type="button"></button>
                 </td>
-                <td id="1">
+                <td>
+                    <button type="button"></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button"></button>
+                </td>
+                <td>
+                    <button type="button"></button>
+                </td>
+                <td>
+                    <button type="button"></button>
+                </td>
+                <td>
+                    <button type="button"></button>
+                </td>
+                <td>
+                    <button type="button"></button>
+                </td>
+                <td>
+                    <button type="button"></button>
+                </td>
+                <td>
+                    <button type="button"></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button"></button>
+                </td>
+                <td>
+                    <button type="button"></button>
+                </td>
+                <td>
+                    <button type="button"></button>
+                </td>
+                <td>
+                    <button type="button"></button>
+                </td>
+                <td>
+                    <button type="button"></button>
+                </td>
+                <td>
+                    <button type="button"></button>
+                </td>
+                <td>
                     <button type="button"></button>
                 </td>
             </tr>
         </table>
         <div>
-            <input type="text" name="userName" placeholder="Enter username">
-            <input type="submit" name="submit" value="submit">
         </div>
     </div>
 </div>
-<script src={% static 'jquery-3.4.1.min.js' %}>
-    </script>
-<script src={% static 'project.js' %}>
-</script>
 </body>
 </html>

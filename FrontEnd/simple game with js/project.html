@@ -12,145 +12,17 @@
         </h1>
         <h3 id="startMsg" class="text-center"> Connect a line of four chips to win:)
         </h3>
+        
         <table align='center' class="board">
+{% for i in "abcdef" %}
             <tr>
+                {% for j in "abcdefg" %}
                 <td>
                     <button type="button"></button>
                 </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
+                {% endfor %}
             </tr>
-            <tr>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-                <td>
-                    <button type="button"></button>
-                </td>
-            </tr>
+        {% endfor %}
         </table>
         <div>
         </div>
